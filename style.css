@@ -1,0 +1,68 @@
+body{
+
+   background-color: sienna;
+    
+}
+.ugali{
+    width: 320px;
+}
+
+header{
+   background-color: seashell;
+    width: 320px;
+   
+}
+.menu{
+    
+    list-style: none;
+    text-decoration: none;
+}
+.menu a{
+  text-decoration: none;
+ 
+}
+.method{
+    list-style: none;
+    color: black;
+    
+}
+.method a {
+    text-decoration: none;
+
+}
+ul a{
+    text-decoration: none;
+}
+main{  
+    background-color: darkgray;
+    width: 320px
+} 
+
+.footer-p {
+    font-size: 12;
+    color: azure;
+}
+footer{
+    background-color:black;
+    width: 320px;
+    
+}
+
+
+.footer {
+    
+    list-style-type: none;
+    
+}
+.footer li{
+    display: inline-block;
+    color: blanchedalmond;
+    background-color: rgb(100, 89, 80);
+    border-radius: 5px;
+}
+
+p{
+    color:black;
+}
+
+

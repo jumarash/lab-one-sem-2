@@ -1,25 +1,63 @@
 body{
 
-   background-color: sienna;
+   background-color:saddlebrown;
+   margin-left: auto;
+   margin-right: auto;
     
+}
+.logo{
+    width: 320px;
 }
 .ugali{
     width: 320px;
+    padding-left: px;
+    padding-right: 2px;
+}
+.tz-info{
+    list-style-type: none;
 }
 
 header{
-   background-color: seashell;
+   background-color: white;
     width: 320px;
+    margin-left: auto;
+   margin-right: auto;
    
+   
+   
+}
+.headings{
+    background-color: sienna;
+    padding-left: 6px;
+    
+}
+.heading{
+    padding-left: 6px;
+    padding-right: 6px;
 }
 .menu{
     
     list-style: none;
     text-decoration: none;
+
 }
 .menu a{
   text-decoration: none;
- 
+  display: inline-block;
+  background-color: sienna;
+  color: seashell;
+  padding: 3px 10px;
+  margin: 10px 0;
+  transition:background 0.
+  4s;
+}
+
+.menu a:hover {
+    background-color:rgb(26, 20, 20);
+}
+
+h2{
+    background-color:sienna ;
 }
 .method{
     list-style: none;
@@ -33,32 +71,47 @@ header{
 ul a{
     text-decoration: none;
 }
+.article{
+    background-color: whitesmoke;
+}
+.paragraph{
+
+    padding-left: 6px;
+    padding-right: 6px;
+}
 main{  
-    background-color: darkgray;
-    width: 320px
+    background-color:white;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  
+   
 } 
 
 .footer-p {
     font-size: 12;
     color: azure;
+    padding-left: 2px;
+    padding-right: 1px;
+   
 }
 footer{
-    background-color:black;
+    background-color:rgb(49, 42, 31);
     width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+   
     
 }
-
-
-.footer {
-    
-    list-style-type: none;
-    
+.terms{
+    text-align: center;
+    padding-left: 20px;
+    padding-right:20px ;
+list-style-type: none;
 }
-.footer li{
-    display: inline-block;
-    color: blanchedalmond;
-    background-color: rgb(100, 89, 80);
-    border-radius: 5px;
+.terms li a{
+    color: snow;
+    
 }
 
 p{
@@ -66,3 +119,58 @@ p{
 }
 
 
+.container{
+    box-sizing: border-box;
+    background-color: white;
+    padding: 2px;
+    display: grid;
+    height: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+grid-gap:1px;
+}
+ .a{
+     background-color:sienna;
+     grid-column: 1/2;
+     display: inline-block;
+  background-color: sienna;
+  color: black;
+  padding: 3px 10px;
+  margin: 10px 0;
+  transition:background 0.
+  4s;
+ }
+.a:hover{
+    color:white;
+}
+
+ .b{
+     background-color: sienna;
+     grid-column: 2/3;
+     display: inline-block;
+  background-color: sienna;
+  color: black;
+  padding: 3px 10px;
+  margin: 10px 0;
+  transition:background 0.
+  4s;
+
+ }
+ .b:hover{
+    color:white;
+}
+ .c{
+     background-color:sienna;
+     grid-column: 3/4;
+     display: inline-block;
+  background-color: sienna;
+  color: black;
+  padding: 3px 10px;
+  margin: 10px 0;
+  transition:background 0.
+  4s;
+ }
+ .c:hover{
+    color:white;
+
+   
